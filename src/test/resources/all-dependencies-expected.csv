@@ -1,0 +1,9 @@
+dependency_ga,dependency_v,dependency_scope,dependent_ga,path
+org.slf4j:jcl-over-slf4j,1.7.32,compile,com.myproject:myproject-parent,
+org.junit.jupiter:junit-jupiter-engine,5.8.1,test,com.myproject:myproject-parent,
+org.junit.platform:junit-platform-engine,1.8.1,test,com.myproject:myproject-parent,org.junit.jupiter:junit-jupiter-engine:5.8.1
+org.apiguardian:apiguardian-api,1.1.2,test,com.myproject:myproject-parent,org.junit.jupiter:junit-jupiter-engine:5.8.1
+org.junit.vintage:junit-vintage-engine,5.8.1,test,com.myproject:myproject-core,
+junit:junit,4.13.2,test,com.myproject:myproject-core,org.junit.vintage:junit-vintage-engine:5.8.1
+org.hamcrest:hamcrest-core,1.3,test,com.myproject:myproject-core,org.junit.vintage:junit-vintage-engine:5.8.1/junit:junit:4.13.2
+org.assertj:assertj-core,3.21.0,test,com.myproject:myproject-core,
